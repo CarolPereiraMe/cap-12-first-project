@@ -1,0 +1,92 @@
+body {
+    background-color: #FFC5E7;
+}
+
+input {
+    background-color: #D76CAF !important;
+}
+
+div.header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    min-width: 90%;
+    max-width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+    display:flex;
+}
+
+div.logo-img {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+}
+
+img.logo-img {
+    width: 100%;
+    height: auto;
+    min-width: none;
+    min-height: min-content;
+    max-height: 225px;
+    max-width: 350px;
+    margin-top: 8%;
+}
+
+div.finance-logo-text {
+    width: 75%;
+    float: right;
+    box-sizing: border-box;
+}
+
+h1.finance-logo-text {
+    text-align: center;
+    font-size: calc(1.625rem + 4.5vw);
+    color: #BF3790;
+}
+
+p.welcome-message {
+    font-size: calc(1rem + 1.2vw);
+    color: #5B5B5B;
+}
+
+div.bg-pink {
+    background-color: #BF3790;
+}
+
+div.border-light {
+    border-color: #5B5B5B !important;
+}
+
+div.center-container {
+    margin: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    max-width: max-content;
+}
+
+h1.login-text {
+    font-size: calc(1rem + 1.2vw);
+    color: #ffffff;
+}
+
+p.login-text {
+    font-size: calc(0.5rem + 0.6vw);
+    color: #ffffff;
+}
+
+.custom-padding {
+    padding: 4%;
+}
+
+.btn-primary {
+    display: flex;
+    background-color: #ffffff !important;
+    color: #BF3790 !important;
+    border-color: #BF3790;
+    padding: 0 4em 0 4em;
+}
+
+.margin-top {
+    margin-top: 3%;
+}
